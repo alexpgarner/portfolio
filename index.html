@@ -191,7 +191,7 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form name = "contact" method="post" data-netlify="true">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -204,6 +204,12 @@
 									</div>
 									<div class="col-12">
 										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12" >
+										<input type = 'file' name = 'myfile' id = 'myfile' placeholder="Upload File"/>
+									</div>
+									<div class="col-12" data-nelify-recaptcha="true">
+										
 									</div>
 									<div class="col-12">
 										<ul class="actions">
