@@ -76,6 +76,10 @@ input, select, textarea {
 }
 
 /* Basic */
+	.captcha{
+		display: flex;
+		justify-content: center;
+	}
 
 	html {
 		box-sizing: border-box;
