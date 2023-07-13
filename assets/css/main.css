@@ -2477,8 +2477,19 @@ input, select, textarea {
 	}
 	@media screen and (max-width: 600px) {
 		#nav ul.container {display: none;}
+		#nav ul.container.responsive{
+			display: flex;
+			flex-direction: column;
+			text-align: left;
+			font-size: 1.5em;
+		}
 		#nav a.hamburger {
 			display: flex;
+			order: -1;
 			font-size: 10px !important;
+		}
+		#nav{
+			display: flex;
+			height:fit-content;
 		}
 	}
