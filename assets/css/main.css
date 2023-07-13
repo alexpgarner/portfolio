@@ -34,7 +34,17 @@ body {
 }
 /*icon*/
 i{
-	font-size : 100px !important;
+	font-size : 10em;
+	padding: 0.05em;
+}
+i.fa.fa-bars{
+	font-size:4em;
+}
+img.ejs-icon{
+	height: 10em;
+	width: 10em;
+	margin: 0.05em;
+	box-sizing: border-box;
 }
 ol, ul {
 	list-style: none;
@@ -2053,7 +2063,10 @@ input, select, textarea {
 				}
 
 /* Nav */
-
+	#nav .hamburger{
+		display: none;
+		font-size: 10px !important;
+	}
 	#nav {
 		background-color: #282828;
 		text-align: center;
@@ -2461,4 +2474,11 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+	@media screen and (max-width: 600px) {
+		#nav ul.container {display: none;}
+		#nav a.hamburger {
+			display: flex;
+			font-size: 10px !important;
+		}
 	}
