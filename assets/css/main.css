@@ -237,7 +237,18 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+	
+/*passtopass*/
+#volunteer p{
+	display: block;
+	text-align: left;
+	margin-bottom:1em;
+}
 
+#volunteer img.p2p{
+	max-width: 100%;
+	height: auto;
+}
 /* Container */
 
 	.container {
