@@ -2431,9 +2431,9 @@ input, select, textarea {
 					border-radius: 0;
 				}
 
-					#nav a:hover {
+					/* #nav a:hover {
 						background-color: transparent;
-					}
+					} */
 
 		/* Articles */
 
@@ -2492,4 +2492,7 @@ input, select, textarea {
 			display: flex;
 			height:fit-content;
 		}
+		/* #nav a:hover {
+			background-color: transparent;
+		} */
 	}
